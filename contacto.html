@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+
+	<title>Contacto</title>
+</head>
+<body>
+
+	<!--Fila cabecera-->
+	<div id="header">
+		<ul id="menu">
+			<i class="fas fa-hotel fa-2x" style="color: red;"></i>
+		<li><a href="#">Habitaciones</a></li>
+		<li><a href="#">Acerca de </a></li>
+		<li><a href="index.html">Contacto</a></li>
+	</ul>
+</div>
+
+<div class="container">
+<form id="form" name="formulario" method="post" action="data.php">
+		
+		<fieldset>
+			<legend>Datos Personales</legend>
+
+			<label for="nombre" class="nombre"></label>
+			<input type="text" name="nombre" id="nombre" maxlength="20" placeholder="Nombre" required>
+
+			<label for="apellidos" class="apellidos"></label><br>
+ 			<input type="text" name="apellidos" id="apellidos" maxlength="20" placeholder="Apellidos" required>
+
+ 			 <label for="email" class="email"></label>
+ 			<input type="text" name="email" id="email" maxlength="20" placeholder="Email" required>
+
+ 			<label for="telefono" class="telefono"></label>
+ 			<input type="number" name="phone" id="telefono"maxlength="10" placeholder="Móvil" required><br>
+		</fieldset>
+
+		<fieldset>
+			<legend>Datos de reserva</legend><br>
+
+			<label for="fecha" class="fecha">Entrada:</label>
+			<input type="date" name="bday" id="fecha" maxlength="10" placeholder="Fecha-de-entrada" required>
+
+			<label for="fecha" class="fecha">Salida:</label>
+			<input type="date" name="" id="date" name="bday" min="10" placeholder="fecha-de-salida">
+
+			<label for="adultos" class="adultos">Adultos</label>
+			<input type="text-1" name="adulto" id="adulto"maxlength="5" required>
+
+			<label for="niños" class="niños">Niños</label>
+			<input type="text-1" name="niños"  id= "niños"maxlength="5"  placeholder= "3 a 12 años"required>
+
+			<label for="bebes" class="bebes">Bebés</label>
+			<input type="text-1" name="bebes" id="bebes" maxlength="5" placeholder="0 a 2años:" required>
+			
+			 <label for="tipo-habitacion" class="tipo-habitacion"></label>
+	    	<select  id="tipo-habitacion" type="text"  name="tipo-habitacion" maxlength="10"  placeholder=Tipo-de-habitación: required>
+	    	<option value="">Tipo de habitación:</option>
+	   		<option value="1">Simple</option>
+        	<option value="2">Doble</option>
+        	<option value="3">Deluxe</option>
+        	</select>
+
+		</fieldset>
+
+		<fieldset id="selecciona">
+			<label class="checkbox"></label>
+			<p><input type="checkbox" name= "opcion1" value="1">Sí. Quiero recibir por medio electrónicos ofertas especiales y actualizaciones del hotel y  su servicios</p>
+			<p><input type= "checkbox" name= "opcion2" value ="2">He leído y accepto las<a href=""></a> CONDICIONES DE USO  y la <a href="">POLÍTICA DE COOKIES</a></p>	
+		</fieldset>
+
+		<p><input type="reservar" name="reservar" id="btn-reservar" value= "Reservar"></p>
+	</form>	
+	</div>
+
+	<div class="footer">
+		<p>Búscanos en Redes Sociales</p>
+		<i class="fab fa-facebook-square"></i>
+		<i class="fab fa-instagram"></i>
+		<i class="fab fa-snapchat-square"></i>
+		<i class="fab fa-pinterest-square"></i>
+		<i class="fab fa-twitter-square"></i>
+		<i class="fab fa-linkedin-in"></i>
+		
+	</div>
+
+</body>
+</html>

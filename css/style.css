@@ -1,0 +1,273 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+#header{
+	width: 100%;
+	height: auto;
+	margin: 15px;
+	padding: 10px;
+
+	
+}
+
+#header ul#menu {
+	list-style-type: none;
+	padding-bottom: 5px;	
+}
+
+#header ul#menu i {
+	color: red;
+}
+ul#menu  li{
+	display: inline-block;
+	background-color: beige;
+	padding: 5px; 
+}
+
+ul #menu li a{
+	text-decoration: none;
+	color: #000000;
+}
+
+ul#menu a:hover {
+	color: #B2B2B2;
+}
+
+.texto {
+	width: 80%;
+	height: auto;
+	padding: 20px;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+	text-align: center;
+	margin-top: 15%;
+}
+
+.main {
+	width: 100%
+	height: 670px;
+	background-image: url(../img/hotel.jpg);
+	background-size: cover;
+	padding: 140px 10px;
+	text-align: center;
+	
+	
+}
+
+.grid-container {
+	display: grid;
+	grid-template-areas:
+	'left middle right';
+	grid-gap: 10px;
+	background-color: lightgray;
+}
+
+.left,
+.middle,
+.right {
+	padding: 15px;
+	line-height: 30px;
+	margin: 5px;
+	background-color: beige;
+}
+
+/*style the left, middle and right column*/
+.left{
+	grid-area: left;
+		
+} 
+.select1 {
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+
+.select1 :hover {
+	background-color: gray;
+	
+}
+
+.middle {
+	grid-area: middle;
+	
+	
+}
+
+ .right {
+ 	grid-area: right; 	
+ 		
+ }
+
+.flex-container {
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	display: flex;
+  	background-color: #f1f1f1;
+  	flex-wrap: wrap;
+}
+
+ .left1 {
+ 	display: flex;
+ 	flex: 47%;
+ 	height: auto;
+ 	padding: 5px;
+ 
+ }
+
+ .right1 {
+ 	flex: 47%;
+  	flex-wrap: wrap;
+ 	padding: 3px;
+ 	display: flex;
+ }
+.newyork {
+	flex: 40%;
+	padding: 2px;
+	display: flex;
+}
+
+.sanfran {
+
+	display: flex;
+	flex: 40%;
+	padding: 2px;
+}
+
+.pisa {
+	display: flex;
+	flex: 40%;
+	padding: 2px;
+}
+
+.paris {
+	display: flex;
+	flex: 40%;
+	padding: 2px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+ .footer {
+ 	width: 100%;
+ 	background-color: black;
+ 	padding: 10px;
+ 	text-align: center;
+ 	color: white;
+ 	line-height: 30px;
+ 	
+
+ }
+ 
+ .container {
+ 	width: 100%;
+ 	height: 800px;
+ 	padding: 15px;	
+ }
+
+ #form {
+ 	margin: 1rem auto  0 auto;
+ 	margin-top: 10px;
+ 	margin-bottom: 15px; 
+ 	max-width: 600px;
+ 	border-radius: 12px;
+ }
+ 
+ legend {
+ 	padding-right: 20px;
+ 	min-height: 12px;
+ }
+label {
+	width: 200px;
+	min-height: 16px;
+}
+
+fieldset {
+	background-color: white;
+	padding: 12px 20px;
+	margin: 15px 0;
+	line-height: 20px;
+	border-radius: 3px solid black;
+}
+
+select {
+	width: 95%;
+	padding: 12px 20px;
+	margin: 8px 0;
+    border: 2px solid #0086b3;
+	border-radius: 4px;
+	background-color: #f1f1f1;
+    text-align: start;
+    box-sizing: border-box;
+}
+
+input[type=reservar] {
+  	background-color: beige;
+  	border: none;
+  	padding: 16px 32px;
+  	text-decoration: none;
+  	margin: 4px 2px;
+ 	cursor: pointer;
+  	border-radius: 4px;
+ 	
+
+}
+
+input[type=text] {
+  	width: 95%;
+ 	padding: 12px 20px;
+ 	margin: 8px 0;
+  	box-sizing: border-box;
+  	border: 2px solid #0086b3;
+  	border-radius: 4px;
+  	font-size: 1.0em;
+  	text-align: start;
+}
+
+input[type=text-1] {
+	width: 20%;
+	padding: 12px 20px;
+	margin: 8px 5px;
+	box-sizing: border-box;
+	border: 2px solid #0086b3;
+	border-radius: 4px;
+	font-size: 0.8em;
+	text-align: start;
+}
+
+input[type=number], input[type=date] {
+  	width: 36%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+  	border: 2px solid #0086b3;
+  	border-radius: 4px;
+    font-size: 1.0em;
+}
+#selecciona {
+	font-size: 0.8em;
+	border: none;
+  	padding-left: 2px;
+  	width: 100%;
+  	text-align: justify;
+}
+
+
+
